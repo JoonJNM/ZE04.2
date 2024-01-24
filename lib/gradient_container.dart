@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:ze04/stylet.dart';
+import 'package:ze04/diceroll.dart';
 
 class GContainer extends StatelessWidget {
   GContainer({super.key});
@@ -16,6 +17,6 @@ class GContainer extends StatelessWidget {
           begin: Alignment.topRight,
           end: Alignment.bottomLeft,
         )),
-        child: Center(child: StyleT()));
+        child: Center(child: Dicethrow()));
   }
 }
